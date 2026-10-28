@@ -147,12 +147,12 @@ For model-backed recommendations or PayPal checkout, edit `api/.env` first and r
 ## Hackathon submission checklist
 
 - [ ] Confirm PayPal Sandbox eligibility and successfully run a Sandbox checkout.
-- [ ] Configure an AI model and test recommendation quality, or document the fallback mode accurately.
-- [ ] Run backend tests and frontend lint/build.
-- [ ] Deploy a working demo or provide complete reproducible run instructions.
-- [ ] Verify the Git repository is public and has the license visible.
+- [x] Document the deterministic recommendation fallback and the requirements for model-powered recommendations.
+- [x] Run backend tests and frontend lint/build; GitHub Actions CI passes.
+- [x] Provide reproducible local run instructions; hosted deployment is not yet verified.
+- [x] Verify the Git repository is public and the MIT license is visible.
 - [ ] Record a public YouTube demo under 3 minutes showing the app functioning.
-- [ ] Describe exactly which APIs/models were used; don't claim untested features.
+- [x] Document the APIs and model configuration honestly; do not claim untested features.
 
 ## License
 
